@@ -1,2 +1,59 @@
 # gym-website
 simple gym website
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chinuz Gym</title>
+
+    <link rel="icon" href="assets/LVG-bg-with-center.png" type="image/png" />
+
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/trainers.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/cta.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header-container" class="header">
+      <div class="header-content">
+        <img
+          src="assets/LVG-bg-with-center.png"
+          alt="Las Vegas Gym Logo"
+          class="header-logo"
+        />
+        <nav class="header-nav">
+          <ul>
+            <li><a href="#hero-container">Home</a></li>
+            <li><a href="#about-container">About</a></li>
+            <li><a href="#trainers-container">Trainers</a></li>
+            <li><a href="#contact-container">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div id="hero-container"></div>
+    <div id="about-container"></div>
+    <div id="trainers-container"></div>
+    <div id="contact-container"></div>
+    <div id="cta-container"></div>
+    <div id="footer-container"></div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
